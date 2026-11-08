@@ -1,0 +1,6 @@
+{
+  "name": "Field Operations Precision CRM",
+  "description": "CRM de alta precisão técnica para gerenciamento eficiente de contatos corporativos, clientes de campo e ordens de serviço.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

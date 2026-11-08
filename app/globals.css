@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-chivo: 'Chivo', sans-serif;
+    --font-jetbrains: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-chivo);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-jetbrains);
+  }
+}
+
+/* Custom scrollbars for high-density tabular data */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #eff4ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #BAC7D5;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #74777e;
+}
